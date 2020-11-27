@@ -161,7 +161,8 @@ get_status_led() {
 	ls-sr71)
 		status_led="ubnt:green:d22"
 		;;
-	mc-mac1200r)
+	mc-mac1200r | \
+	mw316r-v1)
 		status_led="mercury:green:system"
 		;;
 	mr12)
@@ -427,6 +428,12 @@ get_status_led() {
 		;;
 	wlr8100)
 		status_led="sitecom:amber:status"
+		;;
+	maselink-ap2600i)
+		status_led="ap2600i:green:power"
+		;;
+	belair20e11)
+		status_led="belair:blue:power"
 		;;
 	esac
 }

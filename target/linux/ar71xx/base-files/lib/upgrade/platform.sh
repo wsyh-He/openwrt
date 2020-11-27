@@ -199,6 +199,7 @@ platform_check_image() {
 	mr12 | \
 	mr16 | \
 	wpj558 | \
+	maselink-ap2600i | \
 	zcn-1523h-2 | \
 	zcn-1523h-5)
 		[ "$magic_long" != "68737173" -a "$magic_long" != "19852003" ] && {
@@ -272,6 +273,7 @@ platform_check_image() {
 	unifiac | \
 	unifi-outdoor | \
 	carambola2 | \
+	belair20e11 | \
 	weio )
 		[ "$magic" != "2705" ] && {
 			echo "Invalid image type."
@@ -340,6 +342,7 @@ platform_check_image() {
 	el-mini | \
 	gl-inet | \
 	mc-mac1200r | \
+	mw316r-v1 | \
 	minibox-v1 |\
 	omy-g1 |\
 	omy-x1 |\
